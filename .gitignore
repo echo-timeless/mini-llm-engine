@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+
+# Local OS files
+.DS_Store
+
+# Downloaded model assets
+models/
+
+# Local docs/scripts and editor configs to keep private
+architecture.md
+graph.md
+scripts/download_model.py
+.vscode/
+
+# Keep local tokenizer/safetensors implementation private
+include/json.h
+include/safetensors.h
+include/tokenizer.h
+src/safetensors.cpp
+src/tokenizer.cpp
